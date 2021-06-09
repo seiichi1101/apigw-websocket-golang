@@ -8,6 +8,10 @@ clean:
 build:
 	@ls handler | xargs -i go build -o bin/{} handler/{}/main.go
 
+.PHONY: init
+init: 
+	@cd terraform && terraform init
+
 .PHONY: deploy
 deploy: clean build
 	@rm -f terraform/function.zip
