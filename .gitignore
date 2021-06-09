@@ -1,0 +1,17 @@
+# for blog
+blog_templates
+markdown.css
+BLOG.md
+MARP.md
+.vscode
+
+# Local .terraform directories
+**/.terraform
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+function.zip
+
+bin/*
