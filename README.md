@@ -17,3 +17,5 @@ use [wscat](https://github.com/websockets/wscat)
 ```
 wscat -c wss://<api-id>.execute-api.<region>.amazonaws.com/<stage>
 ```
+
+![](./pics/wscat.gif)
